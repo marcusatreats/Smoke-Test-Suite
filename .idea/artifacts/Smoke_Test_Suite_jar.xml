@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Smoke-Test-Suite:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Smoke_Test_Suite_jar</output-path>
+    <root id="archive" name="Smoke-Test-Suite.jar">
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

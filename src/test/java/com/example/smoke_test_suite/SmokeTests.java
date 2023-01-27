@@ -12,7 +12,7 @@ import java.time.Duration;
 
 
 @TestMethodOrder(MethodOrderer.MethodName.class)
-public class MainClass extends page_objects {
+public class SmokeTests extends page_objects {
 
     ChromeOptions options = new ChromeOptions();
 
@@ -30,8 +30,6 @@ public class MainClass extends page_objects {
                 .path("/")
                 .build();
         driver.manage().addCookie(ck);
-
-
     }
 
     @AfterEach
@@ -44,6 +42,7 @@ public class MainClass extends page_objects {
     @Test
     @Order(1)
     public void publishProduct() throws InterruptedException {
+
 
         driver.get(wixURL7);
         WebDriverWait w = new WebDriverWait(driver, Duration.ofSeconds(30));

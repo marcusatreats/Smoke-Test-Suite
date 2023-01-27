@@ -1,4 +1,4 @@
-package com.browserstack.steps;
+package com.example.smoke_test_suite;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Wait;
 
 
 public class page_objects {
@@ -47,7 +46,7 @@ public class page_objects {
 
     public static String wixURL9 = "https://manage.wix.com/dashboard/4fbe988a-ee78-4fc1-8ba5-90533f372fb4/store/ebay/?referralInfo=sidebar";   //ebay
 
-    public static String wixURL10 = "https://manage.wix.com/dashboard/4fbe988a-ee78-4fc1-8ba5-90533f372fb4/store/amazon/?referralInfo=sidebar"; //amazon
+    public static String wixURL10 = "https://manage.wix.com/dashboard/5844f077-353e-48fd-a6a8-9a40fc43c663/store/amazon?referralInfo=sidebar"; //amazon
 
     public static String wishmerchantURL = "https://merchant.wish.com/v2-login?next=/product";
 

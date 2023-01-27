@@ -4,6 +4,8 @@
     <root id="archive" name="Smoke-Test-Suite.jar">
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.11" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.30" />
     </root>
   </artifact>
 </component>

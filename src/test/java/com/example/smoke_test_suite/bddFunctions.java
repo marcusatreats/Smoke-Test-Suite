@@ -1,13 +1,9 @@
-package com.browserstack.steps;
+package com.example.smoke_test_suite;
 
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang.RandomStringUtils;
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.io.File;
 import java.time.Duration;
 
 public class bddFunctions extends page_objects {
@@ -25,7 +21,7 @@ public class bddFunctions extends page_objects {
             driver.findElement(by).click();
         } catch (TimeoutException t) {
             System.out.println("Element identified by " + by.toString() + " was not clickable after 30 seconds");
-            Assert.fail("Element " + by + " was not clickable");
+            Assertions.fail("Element " + by + " was not clickable");
         }
     }
     public static void sendKeys(WebDriver driver, By by, String testData) {
@@ -37,7 +33,7 @@ public class bddFunctions extends page_objects {
             driver.findElement(by).sendKeys(testData);
         } catch (TimeoutException t) {
             System.out.println("Element identified by " + by.toString() + " was not clickable after 30 seconds");
-            Assert.fail("Element " + by + " was not clickable");
+            Assertions.fail("Element " + by + " was not clickable");
         }
     }
 
@@ -58,16 +54,8 @@ public class bddFunctions extends page_objects {
                 System.out.println("WebElement" + by.toString() + " is displayed ----> PASS");
             } else
             System.out.println("Element identified by " + by.toString() + " was not displayed after 30 seconds");
-            Assert.fail("Element " + by + " was not displayed");
+            Assertions.fail("Element " + by + " was not displayed");
         }
         return false;
     }
-    public static void takeSnapShot(WebDriver webdriver, String fileWithPath) throws Exception {
-        String s = RandomStringUtils.randomAlphanumeric(5);
-        TakesScreenshot scrShot = ((TakesScreenshot) webdriver);
-        File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
-        File DestFile = new File(fileWithPath + s + ".png");
-        FileUtils.copyFile(SrcFile, DestFile);
-    }
-
 }

@@ -23,7 +23,7 @@ public class SmokeTests extends page_objects {
 
         driver.get("https://wix.com");
 
-        Cookie ck = new Cookie.Builder("wixSession2", "JWT.eyJraWQiOiJrdU42YlJQRCIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1widXNlckd1aWRcIjpcImVmMGEyYzFmLWIxYWUtNDEyNS1iNGMxLWRkZTlhMjg1MDc5NFwiLFwidXNlck5hbWVcIjpcIm1hcmtjMTM0XCIsXCJjb2xvcnNcIjp7fSxcInVjZFwiOlwiMjAyMS0wNi0xNFQyMjowNjo1Ni4wMDArMDAwMFwiLFwid3hzXCI6dHJ1ZSxcImV3eGRcIjp0cnVlLFwiYW9yXCI6dHJ1ZSxcImFjaVwiOlwiZWYwYTJjMWYtYjFhZS00MTI1LWI0YzEtZGRlOWEyODUwNzk0XCIsXCJybWJcIjp0cnVlLFwibHZsZFwiOlwiMjAyMy0wMS0yM1QxMzo0MDo0Mi45NDkrMDAwMFwiLFwibGF0aFwiOlwiMjAyMy0wMS0yM1QxMzo0MDo0Mi45NDkrMDAwMFwiLFwid3hleHBcIjpcIjIwMjMtMDItMDdUMTM6NDA6NDIuOTY2KzAwMDBcIixcInBhY1wiOnRydWV9IiwiaWF0IjoxNjc0NDgxMjQyLCJleHAiOjE2NzU3NzcyNDJ9.hDvcUM3waaet3m9XFVF9K_tOx--6asVXLR2p1HWMGbQZGlSclqbFmhs-3rtgb_-nKAo99rQag89EHPgL8iNM1L-prYYy4GivtaaA1iKvj9HaDIJwLcwTkyvB5rotuOF4xAanDwletNpaKbpB5lCP0pXz3HHFBLaF5usYjOSpHwwR4dUoQ7e0Tx5lWkNY39-nr0hY15WgMbOPsQNkKbIBC2hH-I_40vAXBMqjT-f6OTSw7_Btb3cT9n1oegSDNiB3J2FHfucSumXSykomfvmcV1WqmHnlzrTj2tmoasp4Go9rZ49F7hb29erb80c5teH6Lul45Xx-t3x1tbOhXlWrEQ")
+        Cookie ck = new Cookie.Builder("wixSession2", "JWT.eyJraWQiOiJrdU42YlJQRCIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1widXNlckd1aWRcIjpcImVmMGEyYzFmLWIxYWUtNDEyNS1iNGMxLWRkZTlhMjg1MDc5NFwiLFwidXNlck5hbWVcIjpcIm1hcmtjMTM0XCIsXCJjb2xvcnNcIjp7fSxcInVjZFwiOlwiMjAyMS0wNi0xNFQyMjowNjo1Ni4wMDArMDAwMFwiLFwid3hzXCI6dHJ1ZSxcImV3eGRcIjp0cnVlLFwiYW9yXCI6dHJ1ZSxcImFjaVwiOlwiZWYwYTJjMWYtYjFhZS00MTI1LWI0YzEtZGRlOWEyODUwNzk0XCIsXCJybWJcIjp0cnVlLFwibHZsZFwiOlwiMjAyMy0wMi0wN1QxNDowMjo1Ni40MTYrMDAwMFwiLFwibGF0aFwiOlwiMjAyMy0wMi0wN1QxNDowMjo1Ni40MTYrMDAwMFwiLFwid3hleHBcIjpcIjIwMjMtMDItMjJUMTQ6MDI6NTYuNDQ3KzAwMDBcIixcInBhY1wiOnRydWV9IiwiaWF0IjoxNjc1Nzc4NTc2LCJleHAiOjE2NzcwNzQ1NzZ9.FM5z8fMlWot9A7qLMQVb0h6xOFtHHhihJU_nUwd8iZxRw02KPurrkORkf5tgStUktlpSWM-B99k_bg3RTsra5ccD2e06H9Hl6MUIWbEDpWh8rpZewweKrR1Boh-fOuP5Jbhdq9XnbBvaHCCwxDC55H_QjlQlSFCD3Ef_aK1yff95SSfz562OBX_rOmM7uz2-fPem2Zm5W8X2mAkW1kMCh9KBD6wWE8Keh0iVMSHe2om_lHBYNp6fYaFLp93lnJTJub4qOXUMGZ9OWc_r0DtAB3FxdzVoFTX4j7JCw02eZFLtGeBKLH5aghW9W36ieAACTA2oQkOSYIZTrZpvSW7bsw")
                 .domain(".wix.com")
                 .isHttpOnly(true)
                 .isSecure(false)
@@ -127,7 +127,7 @@ public class SmokeTests extends page_objects {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollTo(0,0)");
         //Save Button
-        w.until(ExpectedConditions.elementToBeClickable((By.xpath("//div[@class='wix-header']//a[.='Publish Product']")))).click();
+                    w.until(ExpectedConditions.elementToBeClickable((By.xpath("//div[@class='wix-header']//a[.='Publish Product']")))).click();
         //Accept and Publish
         bddFunctions.clickwait(driver, By.id("btn-import-start"));
         bddFunctions.isdisplayed(driver, By.id("wix_ebay_published"));

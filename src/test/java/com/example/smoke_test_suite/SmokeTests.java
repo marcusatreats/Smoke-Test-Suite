@@ -25,13 +25,13 @@ public class SmokeTests extends page_objects {
     public void setup() {
 
 
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--remote-allow-origins=*");
-        driver = new ChromeDriver(options);
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("--remote-allow-origins=*");
+//        driver = new ChromeDriver(options);
 
         driver.get("https://wix.com");
 
-        Cookie ck = new Cookie.Builder("wixSession2", "JWT.eyJraWQiOiJrdU42YlJQRCIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1widXNlckd1aWRcIjpcImVmMGEyYzFmLWIxYWUtNDEyNS1iNGMxLWRkZTlhMjg1MDc5NFwiLFwidXNlck5hbWVcIjpcIm1hcmtjMTM0XCIsXCJjb2xvcnNcIjp7fSxcInVjZFwiOlwiMjAyMS0wNi0xNFQyMjowNjo1Ni4wMDArMDAwMFwiLFwid3hzXCI6dHJ1ZSxcImV3eGRcIjp0cnVlLFwiYW9yXCI6dHJ1ZSxcImFjaVwiOlwiZWYwYTJjMWYtYjFhZS00MTI1LWI0YzEtZGRlOWEyODUwNzk0XCIsXCJybWJcIjp0cnVlLFwibHZsZFwiOlwiMjAyMy0wNC0xMVQyMjowMzo0MC41MTcrMDAwMFwiLFwibGF0aFwiOlwiMjAyMy0wNC0xMVQyMjowMzo0MC41MTcrMDAwMFwiLFwid3hleHBcIjpcIjIwMjMtMDQtMjZUMjI6MDM6NDAuNTM0KzAwMDBcIixcInBhY1wiOnRydWV9IiwiaWF0IjoxNjgxMjUwNjIwLCJleHAiOjE2ODI1NDY2MjB9.D_7iw5xS5qV4Hvm6QuePeUsWgAmMBSQReuoX6k_r5dC8nTwCmqANmCFoyFbtSkuDhHHoHHROrSQLqM2r-rTEcAHAgdMeBwU30kTOIOQyBOurubYrWfRdiekwMkMWmQIjSbKtyw3B9SZ9eFMq37qnFOZQQDjdqkadrEgzzzORh9ky_ABXqoJd2gI-nb5nE7_QFaoG1ax1E1SYtxAH-o1TGdPRh8Rd6F-HiA8JfR535tGRhExWXDnhEKK4IDoajr14rmth6E7GEr-PfO9q1Cri5OEhqitpwWsAb8bNL3BelQBBthWDUUk3wRONDgwSTBKMQqq4u6Lo8gjYBPSsz_ZIYA")
+        Cookie ck = new Cookie.Builder("wixSession2", "JWT.eyJraWQiOiJrdU42YlJQRCIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1widXNlckd1aWRcIjpcImVmMGEyYzFmLWIxYWUtNDEyNS1iNGMxLWRkZTlhMjg1MDc5NFwiLFwidXNlck5hbWVcIjpcIm1hcmtjMTM0XCIsXCJjb2xvcnNcIjp7fSxcInVjZFwiOlwiMjAyMS0wNi0xNFQyMjowNjo1Ni4wMDArMDAwMFwiLFwid3hzXCI6dHJ1ZSxcImV3eGRcIjp0cnVlLFwiYW9yXCI6dHJ1ZSxcImFjaVwiOlwiZWYwYTJjMWYtYjFhZS00MTI1LWI0YzEtZGRlOWEyODUwNzk0XCIsXCJybWJcIjp0cnVlLFwibHZsZFwiOlwiMjAyMy0wNC0xMVQyMjoxODoyOC43MDIrMDAwMFwiLFwibGF0aFwiOlwiMjAyMy0wNC0xMVQyMjoxODoyOC43MDIrMDAwMFwiLFwid3hleHBcIjpcIjIwMjMtMDQtMjZUMjI6MTg6MjguNzE3KzAwMDBcIixcInBhY1wiOnRydWV9IiwiaWF0IjoxNjgxMjUxNTA4LCJleHAiOjE2ODI1NDc1MDh9.X8q-s0iupOoCjtl3hsOdOBkQOvhE-Va4qtHhDNtV5XyEitEf7kkO9CTPHq67NToAolq0rItyrfby-2MWdkZwFpNLz29BkSsHl0j0M5EkKEHu6Gdn4Rt95b_olm_C8tBGUja8SjJI_cyy0fXdP60pKdOBTCuPHCfevXzfA2JO0CgwfkIQEY3b0Yu8T3ChERJKK1nkOT6r6ThzWR1T_f5XEXrYd5QcdL3w-oomocoPo2Qy8V-6927-Bx6b5PhsxmzMOIhxTx9NlpaQps1CQrzP6nhGpzqHS_HbXzeXl1Gvx8CtwbodYBl--8Aa2QQZB1mjPRpnyztrVXq5UsLsh3271Q")
                 .domain(".wix.com")
                 .isHttpOnly(true)
                 .isSecure(true)

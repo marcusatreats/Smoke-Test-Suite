@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="Updated Session Cookie and POM">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="updated Cookie Value">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +162,7 @@
       <workItem from="1679924706263" duration="633000" />
       <workItem from="1680269892447" duration="2446000" />
       <workItem from="1680637732110" duration="26120000" />
-      <workItem from="1681237559102" duration="2633000" />
+      <workItem from="1681237559102" duration="3681000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing all the Code to Github for the 1st time.">
       <created>1674841437360</created>
@@ -187,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677529449949</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated selenium version as no longer works with Chrome 112 and also updated Cookie Value">
+      <created>1681250788940</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681250788940</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +212,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pushing all the Code to Github for the 1st time." />
     <MESSAGE value="Updated Session Cookie and POM" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Session Cookie and POM" />
+    <MESSAGE value="Updated selenium version as no longer works with Chrome 112 and also updated Cookie Value" />
+    <MESSAGE value="updated Cookie Value" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated Cookie Value" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -6,6 +6,7 @@ import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
@@ -14,22 +15,32 @@ import java.time.Duration;
 @TestMethodOrder(MethodOrderer.MethodName.class)
 public class SmokeTests extends page_objects {
 
-    ChromeOptions options = new ChromeOptions();
+
 
     ChromeDriver driver = new ChromeDriver();
+
+
 
     @BeforeEach
     public void setup() {
 
+
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        driver = new ChromeDriver(options);
+
         driver.get("https://wix.com");
 
-        Cookie ck = new Cookie.Builder("wixSession2", "JWT.eyJraWQiOiJrdU42YlJQRCIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1widXNlckd1aWRcIjpcImVmMGEyYzFmLWIxYWUtNDEyNS1iNGMxLWRkZTlhMjg1MDc5NFwiLFwidXNlck5hbWVcIjpcIm1hcmtjMTM0XCIsXCJjb2xvcnNcIjp7fSxcInVjZFwiOlwiMjAyMS0wNi0xNFQyMjowNjo1Ni4wMDArMDAwMFwiLFwid3hzXCI6dHJ1ZSxcImV3eGRcIjp0cnVlLFwiYW9yXCI6dHJ1ZSxcImFjaVwiOlwiZWYwYTJjMWYtYjFhZS00MTI1LWI0YzEtZGRlOWEyODUwNzk0XCIsXCJybWJcIjp0cnVlLFwibHZsZFwiOlwiMjAyMy0wMi0yNFQxOTowMzozMi4wNzgrMDAwMFwiLFwibGF0aFwiOlwiMjAyMy0wMi0yNFQxOTowMzozMi4wNzgrMDAwMFwiLFwid3hleHBcIjpcIjIwMjMtMDMtMTFUMTk6MDM6MzIuMDk0KzAwMDBcIixcInBhY1wiOnRydWV9IiwiaWF0IjoxNjc3MjY1NDEyLCJleHAiOjE2Nzg1NjE0MTJ9.gwpBxx0CgUdGwdkmgq1DPOgkuqRF5oNOTKMZgKt9y73cZwjamAd4V_p3tTC5B6hFBijK-Ya8XGzxKECCZesCEffKSo2l5kWXx6-_o8j15njPbP6aXLDO71xScjzsJZ6OLVz9hSQ_5pbFlTz8F-vMJfAjMsbT-fo4lIYrSSYJUv2RSXjJ9t1iJK9OuEVNG93eD0L0PS9Q0KLwRloEANjWZFwQR847Sy81iF2AoJzgkZEfoNbDyYCkzbcwOIhlbOoDKL5SztsFJOT_fqIMoJoIigTFKzRVwECqiVTntICqcoa4UOxUdRi740AgnZXidRjGidRwEuDbczP45DXvxuOZRQ")
+        Cookie ck = new Cookie.Builder("wixSession2", "JWT.eyJraWQiOiJrdU42YlJQRCIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1widXNlckd1aWRcIjpcImVmMGEyYzFmLWIxYWUtNDEyNS1iNGMxLWRkZTlhMjg1MDc5NFwiLFwidXNlck5hbWVcIjpcIm1hcmtjMTM0XCIsXCJjb2xvcnNcIjp7fSxcInVjZFwiOlwiMjAyMS0wNi0xNFQyMjowNjo1Ni4wMDArMDAwMFwiLFwid3hzXCI6dHJ1ZSxcImV3eGRcIjp0cnVlLFwiYW9yXCI6dHJ1ZSxcImFjaVwiOlwiZWYwYTJjMWYtYjFhZS00MTI1LWI0YzEtZGRlOWEyODUwNzk0XCIsXCJybWJcIjp0cnVlLFwibHZsZFwiOlwiMjAyMy0wNC0xMVQyMjowMzo0MC41MTcrMDAwMFwiLFwibGF0aFwiOlwiMjAyMy0wNC0xMVQyMjowMzo0MC41MTcrMDAwMFwiLFwid3hleHBcIjpcIjIwMjMtMDQtMjZUMjI6MDM6NDAuNTM0KzAwMDBcIixcInBhY1wiOnRydWV9IiwiaWF0IjoxNjgxMjUwNjIwLCJleHAiOjE2ODI1NDY2MjB9.D_7iw5xS5qV4Hvm6QuePeUsWgAmMBSQReuoX6k_r5dC8nTwCmqANmCFoyFbtSkuDhHHoHHROrSQLqM2r-rTEcAHAgdMeBwU30kTOIOQyBOurubYrWfRdiekwMkMWmQIjSbKtyw3B9SZ9eFMq37qnFOZQQDjdqkadrEgzzzORh9ky_ABXqoJd2gI-nb5nE7_QFaoG1ax1E1SYtxAH-o1TGdPRh8Rd6F-HiA8JfR535tGRhExWXDnhEKK4IDoajr14rmth6E7GEr-PfO9q1Cri5OEhqitpwWsAb8bNL3BelQBBthWDUUk3wRONDgwSTBKMQqq4u6Lo8gjYBPSsz_ZIYA")
                 .domain(".wix.com")
                 .isHttpOnly(true)
-                .isSecure(false)
+                .isSecure(true)
                 .path("/")
                 .build();
         driver.manage().addCookie(ck);
+
+
+
     }
 
     @AfterEach

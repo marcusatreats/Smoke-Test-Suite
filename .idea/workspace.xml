@@ -162,7 +162,19 @@
       <workItem from="1679924706263" duration="633000" />
       <workItem from="1680269892447" duration="2446000" />
       <workItem from="1680637732110" duration="26120000" />
-      <workItem from="1681237559102" duration="3681000" />
+      <workItem from="1681237559102" duration="25659000" />
+      <workItem from="1682780093070" duration="2736000" />
+      <workItem from="1683057278502" duration="1702000" />
+      <workItem from="1683215608792" duration="4572000" />
+      <workItem from="1683815045029" duration="105000" />
+      <workItem from="1683815175639" duration="2979000" />
+      <workItem from="1684157626852" duration="9093000" />
+      <workItem from="1685368850739" duration="1289000" />
+      <workItem from="1685538923216" duration="2574000" />
+      <workItem from="1685975134745" duration="3567000" />
+      <workItem from="1686435616512" duration="763000" />
+      <workItem from="1686497617151" duration="210000" />
+      <workItem from="1686661409170" duration="151000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing all the Code to Github for the 1st time.">
       <created>1674841437360</created>
@@ -192,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681250788940</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated Cookie Value">
+      <created>1681251840986</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681251840986</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,5 +253,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Smoke_Test_Suite$SmokeTests.ic" NAME="SmokeTests Coverage Results" MODIFIED="1682601765184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.smoke_test_suite.SmokeTests</FILTER>
+    </SUITE>
   </component>
 </project>

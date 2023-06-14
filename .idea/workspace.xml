@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="updated Cookie Value" />
+    <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="updated Cookie Value">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +56,7 @@
       <recent name="com.example.smoke_test_suite" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SmokeTests.publishProduct">
+  <component name="RunManager" selected="JUnit.SmokeTests">
     <configuration name="SmokeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Smoke-Test-Suite" />
       <extension name="coverage">
@@ -129,8 +131,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SmokeTests.publishProduct" />
         <item itemvalue="JUnit.SmokeTests" />
+        <item itemvalue="JUnit.SmokeTests.publishProduct" />
         <item itemvalue="JUnit.SmokeTests.publishAmazonProduct" />
         <item itemvalue="JUnit.SmokeTests.publishMultiImage" />
       </list>
@@ -171,7 +173,7 @@
       <workItem from="1685975134745" duration="3567000" />
       <workItem from="1686435616512" duration="763000" />
       <workItem from="1686497617151" duration="210000" />
-      <workItem from="1686661409170" duration="611000" />
+      <workItem from="1686661409170" duration="2219000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing all the Code to Github for the 1st time.">
       <created>1674841437360</created>
@@ -215,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686690851925</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated Cookie Value">
+      <created>1686691413807</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686691413807</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

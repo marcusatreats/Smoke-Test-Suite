@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="Fixed test's product value">
+    <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="Updated Cookie Injection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" afterDir="false" />
     </list>
@@ -57,7 +57,22 @@
       <recent name="com.example.smoke_test_suite" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SmokeTests.publishAmazonMultiManagedProduct">
+  <component name="RunManager" selected="JUnit.SmokeTests">
+    <configuration name="SmokeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Smoke-Test-Suite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.smoke_test_suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
+      <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SmokeTests.publishAmazonMultiManagedProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Smoke-Test-Suite" />
       <extension name="coverage">
@@ -106,7 +121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmokeTests.publishMultiImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SmokeTests.publishProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Smoke-Test-Suite" />
       <extension name="coverage">
         <pattern>
@@ -116,23 +131,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
       <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
-      <option name="METHOD_NAME" value="publishMultiImage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmokeTests.publishMultiManagedProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Smoke-Test-Suite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.smoke_test_suite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
-      <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
-      <option name="METHOD_NAME" value="publishMultiManagedProduct" />
+      <option name="METHOD_NAME" value="publishProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,17 +140,17 @@
     <list>
       <item itemvalue="JUnit.SmokeTests.publishAmazonMultiManagedProduct" />
       <item itemvalue="JUnit.SmokeTests.publishMultiAmazonProduct" />
-      <item itemvalue="JUnit.SmokeTests.publishMultiManagedProduct" />
+      <item itemvalue="JUnit.SmokeTests" />
       <item itemvalue="JUnit.SmokeTests.publishAmazonProduct" />
-      <item itemvalue="JUnit.SmokeTests.publishMultiImage" />
+      <item itemvalue="JUnit.SmokeTests.publishProduct" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SmokeTests" />
+        <item itemvalue="JUnit.SmokeTests.publishProduct" />
         <item itemvalue="JUnit.SmokeTests.publishAmazonMultiManagedProduct" />
         <item itemvalue="JUnit.SmokeTests.publishMultiAmazonProduct" />
         <item itemvalue="JUnit.SmokeTests.publishAmazonProduct" />
-        <item itemvalue="JUnit.SmokeTests.publishMultiImage" />
-        <item itemvalue="JUnit.SmokeTests.publishMultiManagedProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +192,9 @@
       <workItem from="1686661409170" duration="6563000" />
       <workItem from="1687384591196" duration="3016000" />
       <workItem from="1687786039306" duration="7540000" />
-      <workItem from="1688390408280" duration="7916000" />
+      <workItem from="1688390408280" duration="13609000" />
+      <workItem from="1688995680500" duration="3509000" />
+      <workItem from="1689253684928" duration="4102000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing all the Code to Github for the 1st time.">
       <created>1674841437360</created>
@@ -258,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688306219654</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updated Cookie Injection">
+      <created>1688671346775</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688671346775</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +289,8 @@
     <MESSAGE value="Updated selenium version as no longer works with Chrome 112 and also updated Cookie Value" />
     <MESSAGE value="updated Cookie Value" />
     <MESSAGE value="Fixed test's product value" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed test's product value" />
+    <MESSAGE value="Updated Cookie Injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Cookie Injection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

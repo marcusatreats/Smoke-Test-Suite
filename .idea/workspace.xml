@@ -57,7 +57,7 @@
       <recent name="com.example.smoke_test_suite" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SmokeTests">
+  <component name="RunManager" selected="JUnit.SmokeTests.unpublishAmazon">
     <configuration name="SmokeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Smoke-Test-Suite" />
       <extension name="coverage">
@@ -84,22 +84,6 @@
       <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
       <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
       <option name="METHOD_NAME" value="publishAmazonMultiManagedProduct" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmokeTests.publishAmazonProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Smoke-Test-Suite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.smoke_test_suite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
-      <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
-      <option name="METHOD_NAME" value="publishAmazonProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,20 +121,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmokeTests.unpublishAmazon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Smoke-Test-Suite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.smoke_test_suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
+      <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
+      <option name="METHOD_NAME" value="unpublishAmazon" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="JUnit.SmokeTests.unpublishAmazon" />
       <item itemvalue="JUnit.SmokeTests.publishAmazonMultiManagedProduct" />
       <item itemvalue="JUnit.SmokeTests.publishMultiAmazonProduct" />
       <item itemvalue="JUnit.SmokeTests" />
-      <item itemvalue="JUnit.SmokeTests.publishAmazonProduct" />
       <item itemvalue="JUnit.SmokeTests.publishProduct" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SmokeTests.unpublishAmazon" />
         <item itemvalue="JUnit.SmokeTests" />
         <item itemvalue="JUnit.SmokeTests.publishProduct" />
         <item itemvalue="JUnit.SmokeTests.publishAmazonMultiManagedProduct" />
         <item itemvalue="JUnit.SmokeTests.publishMultiAmazonProduct" />
-        <item itemvalue="JUnit.SmokeTests.publishAmazonProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +194,7 @@
       <workItem from="1687786039306" duration="7540000" />
       <workItem from="1688390408280" duration="13609000" />
       <workItem from="1688995680500" duration="3509000" />
-      <workItem from="1689253684928" duration="4102000" />
+      <workItem from="1689253684928" duration="8203000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing all the Code to Github for the 1st time.">
       <created>1674841437360</created>
@@ -266,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688671346775</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated Cookie Injection">
+      <created>1689601495822</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689601495822</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,5 +1,6 @@
 package com.example.smoke_test_suite;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
@@ -7,8 +8,11 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.io.IOException;
 import java.time.Duration;
 
 
@@ -19,7 +23,7 @@ public class SmokeTests extends page_objects {
 
     ChromeDriver driver = new ChromeDriver();
 
-
+    String s = RandomStringUtils.randomAlphanumeric(10);
 
     @BeforeEach
     public void setup() {
@@ -312,6 +316,23 @@ public class SmokeTests extends page_objects {
         bddFunctions.clickwait(driver, By.xpath("//th[@class='td_checkbox sorter-false header']//span[@class='checkmark']"));
         bddFunctions.clickwait(driver, By.id("bulk-unpublish"));
         bddFunctions.clickwait(driver, By.id("btn-unpublish"));
+
+
+    }
+
+    @Test
+    @Order(10)
+    public void CreateProductAmazon() throws InterruptedException, IOException {
+
+        String name = "Test Data";
+        String sku = "SKU123";
+        String name2 = name + s;
+        String sku2 = sku + s;
+        createProductAPI.createproductwithimage(sku2, name2, "src/test/java/com/example/jsonFiles/single_variant.json");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        driver.navigate().to(wixURL10);
+        bddFunctions.clickwait(driver, By.id("search_toggle"));
+        bddFunctions.sendKeys(driver, By.id("productsearch"), name2);
 
 
     }

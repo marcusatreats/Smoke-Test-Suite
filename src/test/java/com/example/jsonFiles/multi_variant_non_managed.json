@@ -1,0 +1,42 @@
+{
+  "product": {
+    "name": "{{name}}",
+    "productType": "physical",
+    "priceData": {
+      "price": 10.5
+    },
+    "costAndProfitData": {
+      "itemCost": 7
+    },
+    "description": "{{name}}",
+    "sku": "{{sku}}",
+    "visible": true,
+    "ribbon": "Sale",
+    "brand": "Nice",
+    "weight": 0.2,
+    "discount": {
+      "type": "AMOUNT",
+      "value": 1
+    },
+    "manageVariants": false,
+    "productOptions": [
+      {
+        "name": "Size",
+        "choices": [
+          {
+            "value": "S",
+            "description": "S"
+          },
+          {
+            "value": "M",
+            "description": "M"
+          },
+          {
+            "value": "L",
+            "description": "L"
+          }
+        ]
+      }
+    ]
+  }
+}

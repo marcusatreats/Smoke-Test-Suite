@@ -48,6 +48,8 @@ public class page_objects {
 
     public static String wixURL10 = "https://manage.wix.com/dashboard/5844f077-353e-48fd-a6a8-9a40fc43c663/store/amazon?referralInfo=sidebar"; //amazon
 
+    public static String wixStoreAmazon = "https://manage.wix.com/dashboard/5844f077-353e-48fd-a6a8-9a40fc43c663/products?referralInfo=sidebar";
+
     public static String wishmerchantURL = "https://merchant.wish.com/v2-login?next=/product";
 
     public static String username = "wixqatestinkfrog@gmail.com";

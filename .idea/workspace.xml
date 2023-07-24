@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="Updated Cookie Injection">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/jsonFiles/error.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/jsonFiles/image.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/jsonFiles/multi_variant.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/jsonFiles/multi_variant_non_managed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/jsonFiles/product.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/jsonFiles/single_variant.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/createProductAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/page_objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/page_objects.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,25 +40,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/markc/Smoke-Test-Suite&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.1112347&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.22305763&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/markc/Smoke-Test-Suite/src/test/java/com/example",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.1112347",
+    "project.structure.side.proportion": "0.22305763",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/example" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
@@ -57,7 +69,7 @@
       <recent name="com.example.smoke_test_suite" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SmokeTests.unpublishAmazon">
+  <component name="RunManager" selected="JUnit.SmokeTests.CreateProductAmazon">
     <configuration name="SmokeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Smoke-Test-Suite" />
       <extension name="coverage">
@@ -73,7 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmokeTests.publishAmazonMultiManagedProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SmokeTests.CreateProductAmazon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Smoke-Test-Suite" />
       <extension name="coverage">
         <pattern>
@@ -83,23 +95,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
       <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
-      <option name="METHOD_NAME" value="publishAmazonMultiManagedProduct" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmokeTests.publishMultiAmazonProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Smoke-Test-Suite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.smoke_test_suite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
-      <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
-      <option name="METHOD_NAME" value="publishMultiAmazonProduct" />
+      <option name="METHOD_NAME" value="CreateProductAmazon" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,6 +112,22 @@
       <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
       <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
       <option name="METHOD_NAME" value="publishProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTests.publishProductAmazon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Smoke-Test-Suite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.smoke_test_suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
+      <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
+      <option name="METHOD_NAME" value="publishProductAmazon" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,19 +150,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.SmokeTests.CreateProductAmazon" />
+      <item itemvalue="JUnit.SmokeTests.publishProductAmazon" />
       <item itemvalue="JUnit.SmokeTests.unpublishAmazon" />
-      <item itemvalue="JUnit.SmokeTests.publishAmazonMultiManagedProduct" />
-      <item itemvalue="JUnit.SmokeTests.publishMultiAmazonProduct" />
       <item itemvalue="JUnit.SmokeTests" />
       <item itemvalue="JUnit.SmokeTests.publishProduct" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SmokeTests.CreateProductAmazon" />
+        <item itemvalue="JUnit.SmokeTests.publishProductAmazon" />
         <item itemvalue="JUnit.SmokeTests.unpublishAmazon" />
         <item itemvalue="JUnit.SmokeTests" />
         <item itemvalue="JUnit.SmokeTests.publishProduct" />
-        <item itemvalue="JUnit.SmokeTests.publishAmazonMultiManagedProduct" />
-        <item itemvalue="JUnit.SmokeTests.publishMultiAmazonProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +206,8 @@
       <workItem from="1687786039306" duration="7540000" />
       <workItem from="1688390408280" duration="13609000" />
       <workItem from="1688995680500" duration="3509000" />
-      <workItem from="1689253684928" duration="8203000" />
+      <workItem from="1689253684928" duration="14287000" />
+      <workItem from="1690214216673" duration="5679000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing all the Code to Github for the 1st time.">
       <created>1674841437360</created>
@@ -273,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689601495822</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updated Cookie Injection">
+      <created>1689880106003</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689880106003</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,12 +324,26 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java</url>
-          <line>54</line>
+          <line>58</line>
           <properties class="com.example.smoke_test_suite.SmokeTests" method="publishProduct">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java</url>
+          <line>324</line>
+          <properties class="com.example.smoke_test_suite.SmokeTests" method="publishProductAmazon">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

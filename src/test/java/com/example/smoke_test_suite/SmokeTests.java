@@ -341,5 +341,29 @@ public class SmokeTests extends page_objects {
         Assertions.assertFalse(search_result, "No search Results");
     }
 
+    @Test
+    @Order(11)
+    public void CreateProductEbay() throws InterruptedException, IOException {
+        String name = "Test Data";
+        String sku = "";
+        String name2 = name + s;
+        String sku2 = sku + s;
+        createProductAPI_ebay.createproductwithimage(sku2, name2, "src/test/java/com/example/jsonFiles/single_variant.json");
+        System.out.println("Product Created" + name2);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(45));
+        driver.get(wixURL7);
+        Thread.sleep(10000);
+        driver.switchTo().frame(0);
+        ///Click on the search icon
+        bddFunctions.clickwait(driver, By.id("search_toggle"));
+        ////Enter search criteria
+        bddFunctions.sendKeys(driver, By.id("productsearch"), name2);
+        System.out.println(name2);
+        Thread.sleep(10000);
+        boolean search_result = driver.findElement(By.xpath("//span[.='No products matched this filter.']")).isDisplayed();
+        Assertions.assertFalse(search_result, "No search Results");
+
+    }
+
 }
 

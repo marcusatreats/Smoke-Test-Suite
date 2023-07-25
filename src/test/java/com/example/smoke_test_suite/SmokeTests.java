@@ -6,8 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -23,7 +21,7 @@ public class SmokeTests extends page_objects {
 
     ChromeDriver driver = new ChromeDriver();
 
-    String s = RandomStringUtils.randomAlphanumeric(10);
+    String s = RandomStringUtils.randomAlphanumeric(5);
 
     @BeforeEach
     public void setup() {
@@ -325,16 +323,22 @@ public class SmokeTests extends page_objects {
     public void CreateProductAmazon() throws InterruptedException, IOException {
 
         String name = "Test Data";
-        String sku = "SKU123";
+        String sku = "";
         String name2 = name + s;
         String sku2 = sku + s;
+        PageFactory.initElements(driver, this);
         createProductAPI.createproductwithimage(sku2, name2, "src/test/java/com/example/jsonFiles/single_variant.json");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.navigate().to(wixURL10);
-        bddFunctions.clickwait(driver, By.id("search_toggle"));
+        Thread.sleep(10000);
+        driver.switchTo().frame(0);
+        bddFunctions.clickwait(driver, By.id("count_ready"));
+        bddFunctions.clickwait(driver, By.xpath("//button[@id='search_toggle']/i[@class='fal fa-search']"));
         bddFunctions.sendKeys(driver, By.id("productsearch"), name2);
-
-
+        System.out.println(name2);
+        Thread.sleep(10000);
+        boolean search_result = driver.findElement(By.xpath("//span[.='No products matched this filter.']")).isDisplayed();
+        Assertions.assertFalse(search_result, "No search Results");
     }
 
 }

@@ -69,9 +69,9 @@ public class createProductAPI {
     public static void createproductwithimage(String sku, String name, String path) throws IOException {
 
         String json = generateStringFromResource(path);
-        String json2 = generateStringFromResource("src/test/java/com/example/jsonFiles/single_variant.json");
+        String json2 = generateStringFromResource("src/test/java/com/example/jsonFiles/image.json");
         String s = RandomStringUtils.randomAlphanumeric(5);
-        String ID = "ef0a2c_4787cb9497974ee9b352f47283a699fc~mv2.jpeg";
+        String ID = "ef0a2c_35caca2d7c40452b837d8578debdce3a~mv2.jpeg";
 
         String responseID = given().
                 header("Authorization", "IST.eyJraWQiOiJQb3pIX2FDMiIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1wiaWRcIjpcImQxMjllYTdlLTliZDctNDFlMC05ZGM4LTMzMDI3MDAyMjAxZVwiLFwiaWRlbnRpdHlcIjp7XCJ0eXBlXCI6XCJhcHBsaWNhdGlvblwiLFwiaWRcIjpcImYyZTZlMDU3LTAzNDYtNGRkYS1iNmVjLTRmOGI0OTVhY2I2ZFwifSxcInRlbmFudFwiOntcInR5cGVcIjpcImFjY291bnRcIixcImlkXCI6XCJlZjBhMmMxZi1iMWFlLTQxMjUtYjRjMS1kZGU5YTI4NTA3OTRcIn19IiwiaWF0IjoxNjY1NjgxOTg2fQ.YRhNQMU53Ge_xBX8TdvYO-ydLmUgyc0u5VMNAYIpDSBVG6jJR7D5UxhFIgDxOxFtQ4lnqBpxulhS_SxU4a0wXV31sP4SvyaC6r2kNjSrF_Tskz_rr-afRZyOv1MysXI7yQsXqpG4dpLrdeWIxbDpB18pyiglrqzBcU5TQq7UJewL6LMbpSQNSo5Xk2gSpO6mglSDCQO9bGsiADl3t8vtDlE01Yelle5wCLOFaInUm3YY5Qyn8r8hvcq3w0JZ4fERDtaVj2KEInh10tghsnbfN4VrUPsV8T8bI6XoEDnRehYkRgkXPShivDc_nsdijmxgSyKYbK6gMaxZ_A3V4ydIkw").

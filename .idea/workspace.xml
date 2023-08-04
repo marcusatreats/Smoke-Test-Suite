@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="Addded a new test to check sync from stores works from amazon">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/createProductAPI_ebay.java" afterDir="false" />
+    <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="Addded a new test to check sync from stores works from ebay">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,24 +32,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/markc/Smoke-Test-Suite/src/test/java/com/example",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.1112347",
-    "project.structure.side.proportion": "0.22305763",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/markc/Smoke-Test-Suite/src/test/java/com/example&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.1112347&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.22305763&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/com/example" />
@@ -61,7 +61,7 @@
       <recent name="com.example.smoke_test_suite" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SmokeTests.CreateProductEbay">
+  <component name="RunManager" selected="JUnit.SmokeTests">
     <configuration name="SmokeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Smoke-Test-Suite" />
       <extension name="coverage">
@@ -109,6 +109,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmokeTests.publishProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Smoke-Test-Suite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.smoke_test_suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
+      <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
+      <option name="METHOD_NAME" value="publishProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SmokeTests.publishProductAmazon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Smoke-Test-Suite" />
       <extension name="coverage">
@@ -125,36 +141,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmokeTests.unpublishAmazon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Smoke-Test-Suite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.smoke_test_suite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
-      <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
-      <option name="METHOD_NAME" value="unpublishAmazon" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="JUnit.SmokeTests.publishProduct" />
       <item itemvalue="JUnit.SmokeTests.CreateProductAmazon" />
       <item itemvalue="JUnit.SmokeTests.CreateProductEbay" />
       <item itemvalue="JUnit.SmokeTests.publishProductAmazon" />
-      <item itemvalue="JUnit.SmokeTests.unpublishAmazon" />
       <item itemvalue="JUnit.SmokeTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SmokeTests" />
+        <item itemvalue="JUnit.SmokeTests.publishProduct" />
         <item itemvalue="JUnit.SmokeTests.CreateProductEbay" />
         <item itemvalue="JUnit.SmokeTests.CreateProductAmazon" />
-        <item itemvalue="JUnit.SmokeTests" />
         <item itemvalue="JUnit.SmokeTests.publishProductAmazon" />
-        <item itemvalue="JUnit.SmokeTests.unpublishAmazon" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +199,11 @@
       <workItem from="1688390408280" duration="13609000" />
       <workItem from="1688995680500" duration="3509000" />
       <workItem from="1689253684928" duration="14287000" />
-      <workItem from="1690214216673" duration="17538000" />
+      <workItem from="1690214216673" duration="17563000" />
+      <workItem from="1690321750110" duration="374000" />
+      <workItem from="1690377434149" duration="4051000" />
+      <workItem from="1690471687952" duration="10673000" />
+      <workItem from="1690896441778" duration="8370000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing all the Code to Github for the 1st time.">
       <created>1674841437360</created>
@@ -299,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690320553723</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Addded a new test to check sync from stores works from ebay">
+      <created>1690321725629</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690321725629</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,20 +336,12 @@
     <MESSAGE value="Updated Cookie Injection" />
     <MESSAGE value="Added Json Files, and API class and API Automation Code" />
     <MESSAGE value="Addded a new test to check sync from stores works from amazon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addded a new test to check sync from stores works from amazon" />
+    <MESSAGE value="Addded a new test to check sync from stores works from ebay" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addded a new test to check sync from stores works from ebay" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java</url>
-          <line>56</line>
-          <properties class="com.example.smoke_test_suite.SmokeTests" method="publishProduct">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java</url>
           <line>322</line>
@@ -347,6 +350,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java</url>
+          <line>56</line>
+          <properties class="com.example.smoke_test_suite.SmokeTests" method="publishProduct">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java</url>
@@ -357,6 +369,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java</url>
           <line>365</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

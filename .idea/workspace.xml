@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="Addded a new test to check sync from stores works from ebay">
+    <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="Updated Cookie Injection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/page_objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/page_objects.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.SmokeTests">
-    <configuration name="SmokeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SmokeTests" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Smoke-Test-Suite" />
       <extension name="coverage">
         <pattern>
@@ -142,15 +141,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.SmokeTests" />
       <item itemvalue="JUnit.SmokeTests.publishProduct" />
       <item itemvalue="JUnit.SmokeTests.CreateProductAmazon" />
       <item itemvalue="JUnit.SmokeTests.CreateProductEbay" />
       <item itemvalue="JUnit.SmokeTests.publishProductAmazon" />
-      <item itemvalue="JUnit.SmokeTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SmokeTests" />
         <item itemvalue="JUnit.SmokeTests.publishProduct" />
         <item itemvalue="JUnit.SmokeTests.CreateProductEbay" />
         <item itemvalue="JUnit.SmokeTests.CreateProductAmazon" />
@@ -203,7 +201,8 @@
       <workItem from="1690321750110" duration="374000" />
       <workItem from="1690377434149" duration="4051000" />
       <workItem from="1690471687952" duration="10673000" />
-      <workItem from="1690896441778" duration="8370000" />
+      <workItem from="1690896441778" duration="20578000" />
+      <workItem from="1692019867200" duration="2645000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing all the Code to Github for the 1st time.">
       <created>1674841437360</created>
@@ -310,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690321725629</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Updated Cookie Injection">
+      <created>1691185621229</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1691185621229</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,11 +339,11 @@
     <MESSAGE value="Updated selenium version as no longer works with Chrome 112 and also updated Cookie Value" />
     <MESSAGE value="updated Cookie Value" />
     <MESSAGE value="Fixed test's product value" />
-    <MESSAGE value="Updated Cookie Injection" />
     <MESSAGE value="Added Json Files, and API class and API Automation Code" />
     <MESSAGE value="Addded a new test to check sync from stores works from amazon" />
     <MESSAGE value="Addded a new test to check sync from stores works from ebay" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addded a new test to check sync from stores works from ebay" />
+    <MESSAGE value="Updated Cookie Injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Cookie Injection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

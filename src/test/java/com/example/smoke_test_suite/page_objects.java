@@ -52,14 +52,6 @@ public class page_objects {
 
     public static String wishmerchantURL = "https://merchant.wish.com/v2-login?next=/product";
 
-    public static String username = "wixqatestinkfrog@gmail.com";
-
-    public static String password = "T3st3r@123";
-
-    public static String username2 = "markc@wix.com";
-
-    public static String password2 = "Thelatinone@321";
-
     public static String expectedURL = "https://devmain-c-wix.channelsettings.com/amazon/dashboard/test";
 
 //    public static WebDriver driver;

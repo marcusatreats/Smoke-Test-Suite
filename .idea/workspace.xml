@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="Updated Cookie Injection">
+    <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="Removed passwords in repo as credentials are exposed.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/page_objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/page_objects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +202,10 @@
       <workItem from="1690377434149" duration="4051000" />
       <workItem from="1690471687952" duration="10673000" />
       <workItem from="1690896441778" duration="20578000" />
-      <workItem from="1692019867200" duration="2645000" />
+      <workItem from="1692019867200" duration="9742000" />
+      <workItem from="1692365967351" duration="2328000" />
+      <workItem from="1692450752394" duration="3566000" />
+      <workItem from="1692796247355" duration="1603000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing all the Code to Github for the 1st time.">
       <created>1674841437360</created>
@@ -316,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691185621229</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Removed passwords in repo as credentials are exposed.">
+      <created>1692104850077</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1692104850077</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +353,8 @@
     <MESSAGE value="Addded a new test to check sync from stores works from amazon" />
     <MESSAGE value="Addded a new test to check sync from stores works from ebay" />
     <MESSAGE value="Updated Cookie Injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Cookie Injection" />
+    <MESSAGE value="Removed passwords in repo as credentials are exposed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed passwords in repo as credentials are exposed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

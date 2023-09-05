@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="Removed passwords in repo as credentials are exposed.">
+    <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="Updated selenium version to 4.11.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" afterDir="false" />
     </list>
@@ -205,7 +205,10 @@
       <workItem from="1692019867200" duration="9742000" />
       <workItem from="1692365967351" duration="2328000" />
       <workItem from="1692450752394" duration="3566000" />
-      <workItem from="1692796247355" duration="1603000" />
+      <workItem from="1692796247355" duration="5183000" />
+      <workItem from="1693143656839" duration="8301000" />
+      <workItem from="1693834935663" duration="25000" />
+      <workItem from="1693834987485" duration="1917000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing all the Code to Github for the 1st time.">
       <created>1674841437360</created>
@@ -326,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692104850077</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Updated selenium version to 4.11.0">
+      <created>1692989179523</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1692989179523</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +364,8 @@
     <MESSAGE value="Addded a new test to check sync from stores works from ebay" />
     <MESSAGE value="Updated Cookie Injection" />
     <MESSAGE value="Removed passwords in repo as credentials are exposed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed passwords in repo as credentials are exposed." />
+    <MESSAGE value="Updated selenium version to 4.11.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated selenium version to 4.11.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

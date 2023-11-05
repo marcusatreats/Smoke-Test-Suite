@@ -33,7 +33,7 @@ public class SmokeTests extends page_objects {
 
         driver.get("https://wix.com   ");
 
-        Cookie ck = new Cookie.Builder("wixSession2", "JWT.eyJraWQiOiJrdU42YlJQRCIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1widXNlckd1aWRcIjpcImVmMGEyYzFmLWIxYWUtNDEyNS1iNGMxLWRkZTlhMjg1MDc5NFwiLFwidXNlck5hbWVcIjpcIm1hcmtjMTM0XCIsXCJjb2xvcnNcIjp7fSxcInVjZFwiOlwiMjAyMS0wNi0xNFQyMjowNjo1Ni4wMDArMDAwMFwiLFwid3hzXCI6dHJ1ZSxcImV3eGRcIjp0cnVlLFwiYW9yXCI6dHJ1ZSxcImFjaVwiOlwiZWYwYTJjMWYtYjFhZS00MTI1LWI0YzEtZGRlOWEyODUwNzk0XCIsXCJybWJcIjp0cnVlLFwibHZsZFwiOlwiMjAyMy0wOS0wNVQxNToyMToxNC44ODYrMDAwMFwiLFwibGF0aFwiOlwiMjAyMy0wOS0wNVQxNToyMToxNC43MzcrMDAwMFwiLFwid3hleHBcIjpcIjIwMjMtMDktMjBUMTU6MjE6MTQuODg2KzAwMDBcIixcInBhY1wiOnRydWUsXCJzaWRcIjpcIjZjZjI5ODM3LWU1MGItNDdiZC1hYTZhLTc4NmFjZGQ5MDY0ZFwifSIsImlhdCI6MTY5MzkyNzI3NCwiZXhwIjoxNjk1MjIzMjc0fQ.GHD4NPw8-4angusOP_iXE57xFvu_73q-2OUYLcoqMKybSOnpW3XydA44g6q4I8-zrXwyPttUJYPRyk9427gqlJc96moFJU-1jzHEL7Pdqv3Ab8MsC-tqbktWkW6zOAPNONzoOr5LT1V4d5N7YnoPPDfLfk6C026cjkPPGyWSSi4FZnc44k2TNsg0qfaczXSvq0qCGj9Ca0NQhb0gwCDuvXQN4Cauku-2RGSztXq8H4z7sOrC0y80H0vpwbsbKZJ3_4Gx5Mjy8WtHScbuZBkPPqhpazCACfxCd8fLPDHZz8yGtJeQGZVHdXyFHdcqjkd7Zmeh6Nvstd-zzLGX8SIlrA")
+        Cookie ck = new Cookie.Builder("wixSession2", "JWT.eyJraWQiOiJrdU42YlJQRCIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1widXNlckd1aWRcIjpcImVmMGEyYzFmLWIxYWUtNDEyNS1iNGMxLWRkZTlhMjg1MDc5NFwiLFwidXNlck5hbWVcIjpcIm1hcmtjMTM0XCIsXCJjb2xvcnNcIjp7fSxcInVjZFwiOlwiMjAyMS0wNi0xNFQyMjowNjo1Ni4wMDArMDAwMFwiLFwid3hzXCI6dHJ1ZSxcImV3eGRcIjp0cnVlLFwiYW9yXCI6dHJ1ZSxcImFjaVwiOlwiZWYwYTJjMWYtYjFhZS00MTI1LWI0YzEtZGRlOWEyODUwNzk0XCIsXCJybWJcIjp0cnVlLFwibHZsZFwiOlwiMjAyMy0xMC0yMlQxMzo1NjowOS42NDErMDAwMFwiLFwibGF0aFwiOlwiMjAyMy0xMC0yMVQxMzoyMjoxMi45NTErMDAwMFwiLFwid3hleHBcIjpcIjIwMjMtMTEtMDVUMTM6MjI6MTMuMDU4KzAwMDBcIixcInBhY1wiOnRydWUsXCJzaWRcIjpcIjAyN2I2NmJkLWI2YTYtNGZiNy04M2IxLTQ5YjNiNTdkMmY1YlwifSIsImlhdCI6MTY5Nzk4Mjk2OSwiZXhwIjoxNjk5MTkwNTMzfQ.LVO2X8l3HPNzsnRgpmd2ezdvktj4sSvz5vkdtpPRTiu_7x_fGg9rkav9XHIJg8B3_Zpv-93fy9OA8bQAnmf61vdsgaR__06PFw-rpXEpYZpuZBYXekRS_Okad1S3XyPDzj-zdAHE5NOaQw-10nSHHpxA4ShLpuaVOWaYdloGHbtqWOcHKUZVG0iBqKqZntRIDCKuwRt7GAIetA9FOtS1NR3JOj_V4YJE_1CRxVljTx8KJQi4FbV4dUeyj6HS1XEZAM7gSjVmB_8HQjXAA1AE-0qQ8kULvmpZpb_AMKAux7tsq3lLYYvcZoPLRWPfYxm7eQWx4qnBbjBZ0BxpXabQbQ")
                 .domain(".wix.com")
                 .isHttpOnly(true)
                 .isSecure(true)
@@ -223,7 +223,8 @@ public class SmokeTests extends page_objects {
 //        Thread.sleep(10000);
         bddFunctions.clickwait(driver, By.id("single_wix_find"));
 //        Thread.sleep(1000);
-        bddFunctions.sendKeys(driver, By.id("chooseproductsearch"), "B01HN2R4RE");
+        bddFunctions.sendKeys(driver, By.id("chooseproductsearch"), "B01HN2R4RE" +
+                "");
         Thread.sleep(1000);
         bddFunctions.clickwait(driver, By.xpath("//td[@class='product-details']/div[@class='title']"));
         bddFunctions.clickwait(driver, By.id("select-product"));

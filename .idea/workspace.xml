@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="Updated code to have product search data">
+    <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="Updated Cookie Injection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,8 +149,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SmokeTests.CreateProductAmazon" />
         <item itemvalue="JUnit.SmokeTests.CreateProductEbay" />
+        <item itemvalue="JUnit.SmokeTests.CreateProductAmazon" />
         <item itemvalue="JUnit.SmokeTests.publishProduct" />
         <item itemvalue="JUnit.SmokeTests.publishProductAmazon" />
       </list>
@@ -220,7 +221,12 @@
       <workItem from="1698413292463" duration="2199000" />
       <workItem from="1698671820654" duration="2695000" />
       <workItem from="1698791407002" duration="6131000" />
-      <workItem from="1699276073113" duration="299000" />
+      <workItem from="1699276073113" duration="1334000" />
+      <workItem from="1699283308424" duration="12730000" />
+      <workItem from="1699879338495" duration="5041000" />
+      <workItem from="1700171769500" duration="35873000" />
+      <workItem from="1700228371407" duration="2174000" />
+      <workItem from="1700446385975" duration="2667000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing all the Code to Github for the 1st time.">
       <created>1674841437360</created>
@@ -362,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699190067733</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Updated Cookie Injection">
+      <created>1699276471652</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1699276471652</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,12 +401,12 @@
     <MESSAGE value="Added Json Files, and API class and API Automation Code" />
     <MESSAGE value="Addded a new test to check sync from stores works from amazon" />
     <MESSAGE value="Addded a new test to check sync from stores works from ebay" />
-    <MESSAGE value="Updated Cookie Injection" />
     <MESSAGE value="Removed passwords in repo as credentials are exposed." />
     <MESSAGE value="Updated selenium version to 4.11.0" />
     <MESSAGE value="Updated cookie injection" />
     <MESSAGE value="Updated code to have product search data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated code to have product search data" />
+    <MESSAGE value="Updated Cookie Injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Cookie Injection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -425,11 +438,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java</url>
           <line>140</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -60,7 +60,7 @@
       <recent name="com.example.smoke_test_suite" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SmokeTests.publishProduct">
+  <component name="RunManager" selected="JUnit.SmokeTests">
     <configuration name="SmokeTests" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Smoke-Test-Suite" />
       <extension name="coverage">
@@ -239,7 +239,12 @@
       <workItem from="1702906519915" duration="1624000" />
       <workItem from="1702993692111" duration="9251000" />
       <workItem from="1703858221148" duration="1172000" />
-      <workItem from="1704120746370" duration="1526000" />
+      <workItem from="1704120746370" duration="9218000" />
+      <workItem from="1704463133710" duration="3798000" />
+      <workItem from="1704722086666" duration="7078000" />
+      <workItem from="1705067398312" duration="2213000" />
+      <workItem from="1705328158708" duration="4630000" />
+      <workItem from="1705671158792" duration="535000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing all the Code to Github for the 1st time.">
       <created>1674841437360</created>
@@ -395,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700660138057</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Updated Cookie Injection">
+      <created>1704308418200</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1704308418200</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,6 +475,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java</url>
           <line>16</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

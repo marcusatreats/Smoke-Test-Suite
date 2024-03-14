@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="Updated Cookie Injection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,7 +251,16 @@
       <workItem from="1707342785472" duration="1592000" />
       <workItem from="1707484865144" duration="552000" />
       <workItem from="1707744202471" duration="1820000" />
-      <workItem from="1707918938463" duration="7866000" />
+      <workItem from="1707918938463" duration="8806000" />
+      <workItem from="1708440617780" duration="847000" />
+      <workItem from="1708522309519" duration="3902000" />
+      <workItem from="1708781983911" duration="2879000" />
+      <workItem from="1709039717488" duration="1143000" />
+      <workItem from="1709140464821" duration="29637000" />
+      <workItem from="1709301644807" duration="1675000" />
+      <workItem from="1709560078192" duration="2299000" />
+      <workItem from="1710078356796" duration="295000" />
+      <workItem from="1710163068499" duration="1235000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing all the Code to Github for the 1st time.">
       <created>1674841437360</created>
@@ -422,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705672302573</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Updated Cookie Injection">
+      <created>1708349541013</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1708349541013</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,11 +505,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java</url>
           <line>16</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

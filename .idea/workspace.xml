@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="Updated Cookie Injection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +261,7 @@
       <workItem from="1709301644807" duration="1675000" />
       <workItem from="1709560078192" duration="2299000" />
       <workItem from="1710078356796" duration="295000" />
-      <workItem from="1710163068499" duration="1235000" />
+      <workItem from="1710163068499" duration="6150000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing all the Code to Github for the 1st time.">
       <created>1674841437360</created>
@@ -437,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708349541013</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Updated Cookie Injection">
+      <created>1710437573824</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1710437573824</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

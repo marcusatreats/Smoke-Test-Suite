@@ -37,6 +37,7 @@ public class bddFunctions extends page_objects {
         }
     }
 
+
     public static boolean isdisplayed(WebDriver driver, By by) throws InterruptedException {
         try {
             (new WebDriverWait(driver, Duration.ofSeconds(30))).until(ExpectedConditions.elementToBeClickable(by));

@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df3aaf70-d376-44c7-8ac6-d84b3a531917" name="Changes" comment="Updated Cookie Injection">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/bddFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/bddFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2KpPBsDo5FhDphRoIG4nVAn8LH5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,10 +37,13 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;JUnit.SmokeTests.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Smoke-Test-Suite [clean].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/markc/Smoke-Test-Suite/src/test/java/com/example&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -47,7 +53,8 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.1112347&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.22305763&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -143,19 +150,27 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SmokeTests" />
-      <item itemvalue="JUnit.SmokeTests.publishProduct" />
       <item itemvalue="JUnit.SmokeTests.CreateProductAmazon" />
       <item itemvalue="JUnit.SmokeTests.CreateProductEbay" />
       <item itemvalue="JUnit.SmokeTests.publishProductAmazon" />
+      <item itemvalue="JUnit.SmokeTests.publishProduct" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SmokeTests.publishProduct" />
+        <item itemvalue="JUnit.SmokeTests.publishProductAmazon" />
         <item itemvalue="JUnit.SmokeTests.CreateProductEbay" />
         <item itemvalue="JUnit.SmokeTests.CreateProductAmazon" />
-        <item itemvalue="JUnit.SmokeTests.publishProductAmazon" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -267,6 +282,21 @@
       <workItem from="1711909329496" duration="1502000" />
       <workItem from="1712149066966" duration="1949000" />
       <workItem from="1712322932743" duration="5544000" />
+      <workItem from="1712699820304" duration="2282000" />
+      <workItem from="1712928414281" duration="2685000" />
+      <workItem from="1713187404985" duration="1786000" />
+      <workItem from="1713360481101" duration="1160000" />
+      <workItem from="1713532082038" duration="10934000" />
+      <workItem from="1714397280576" duration="64000" />
+      <workItem from="1714397727609" duration="6287000" />
+      <workItem from="1714656783078" duration="16876000" />
+      <workItem from="1715173558207" duration="2695000" />
+      <workItem from="1715187154740" duration="596000" />
+      <workItem from="1715258634555" duration="2238000" />
+      <workItem from="1715277064199" duration="310000" />
+      <workItem from="1715346654921" duration="5951000" />
+      <workItem from="1715608896520" duration="14113000" />
+      <workItem from="1716039321515" duration="5103000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing all the Code to Github for the 1st time.">
       <created>1674841437360</created>
@@ -457,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710960919403</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Updated Cookie Injection">
+      <created>1712699863359</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1712699863359</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,11 +557,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java</url>
           <line>140</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/example/smoke_test_suite/SmokeTests.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

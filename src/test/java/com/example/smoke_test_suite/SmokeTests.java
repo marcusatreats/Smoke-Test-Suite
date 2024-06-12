@@ -33,7 +33,7 @@ public class SmokeTests extends page_objects {
 
         driver.get("https://wix.com");
 
-        Cookie ck = new Cookie.Builder("wixSession2", "JWT.eyJraWQiOiJrdU42YlJQRCIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1widXNlckd1aWRcIjpcImE3YmE2MDY5LTFiMjYtNDM2MC1iMDkzLTA5N2IzMWU5MTBjNVwiLFwidXNlck5hbWVcIjpudWxsLFwiY29sb3JzXCI6e30sXCJ1Y2RcIjpcIjIwMjEtMDctMTlUMTY6MTA6MTkuMDAwKzAwOjAwXCIsXCJ3eHNcIjpmYWxzZSxcImV3eGRcIjpmYWxzZSxcImFvclwiOnRydWUsXCJhY2lcIjpcImE3YmE2MDY5LTFiMjYtNDM2MC1iMDkzLTA5N2IzMWU5MTBjNVwiLFwicm1iXCI6dHJ1ZSxcImx2bGRcIjpcIjIwMjQtMDUtMjZUMTk6MzM6NDUuMDAzKzAwOjAwXCIsXCJsYXRoXCI6XCIyMDI0LTA1LTI2VDE5OjMzOjQ0Ljk0MiswMDowMFwiLFwid3hleHBcIjpcIjIwMjQtMDYtMTBUMTk6MzM6NDUuMDAzKzAwOjAwXCIsXCJwYWNcIjp0cnVlLFwic2lkXCI6XCI4ZDgzZGNhZS04NzY1LTRhMjQtYmIxOS0xMWE3YmQ3ODc3NWFcIn0iLCJpYXQiOjE3MTY3NTIwMjUsImV4cCI6MTcxODA0ODAyNX0.B8lgE5LzIN5q9SkxoYkZtK3040j-Ic2pepBq6FRfv6HHPzJRMzpJdpj1JfZMpFZ5IHHrQlk9RD8roile2rlGIf0sDr334UbLtWzV0_x7DF9z18QpSToBUZyrz_YBF-oxOqSXq5K057VElrmoGIm5Xy86JDJvpz9edn5LiOgZ7F2j-OnyUo4Z0ynxA37cCkkPx-ogH1UzEVDVVTw86eQeViYD5cn5doYjD-3TYQsoSdTfIyi5Jfo8iVCb890acxSZiUObZeublEiQJ21en9xKweoq9uOgVbRzleVutrhPCvVtaCNNbkMyiZU_VGVb4UpOuZIL2LbJ_nso_bkk53Thtg")
+        Cookie ck = new Cookie.Builder("wixSession2", "JWT.eyJraWQiOiJrdU42YlJQRCIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1widXNlckd1aWRcIjpcImVmMGEyYzFmLWIxYWUtNDEyNS1iNGMxLWRkZTlhMjg1MDc5NFwiLFwidXNlck5hbWVcIjpudWxsLFwiY29sb3JzXCI6e1wicG9zdFJlZ0NvbG9yXCI6W1wiZGV2ZWxvcGVyXCJdfSxcInVjZFwiOlwiMjAyMS0wNi0xNFQyMjowNjo1Ni4wMDArMDA6MDBcIixcInd4c1wiOnRydWUsXCJld3hkXCI6dHJ1ZSxcImFvclwiOnRydWUsXCJhY2lcIjpcImVmMGEyYzFmLWIxYWUtNDEyNS1iNGMxLWRkZTlhMjg1MDc5NFwiLFwicm1iXCI6dHJ1ZSxcImx2bGRcIjpcIjIwMjQtMDYtMTFUMTY6Mzc6NTAuMDA4KzAwOjAwXCIsXCJsYXRoXCI6XCIyMDI0LTA2LTExVDE2OjM3OjQ5LjkyNyswMDowMFwiLFwid3hleHBcIjpcIjIwMjQtMDYtMjZUMTY6Mzc6NTAuMDA4KzAwOjAwXCIsXCJwYWNcIjp0cnVlLFwic2lkXCI6XCIzZDI2MjFkYy04ZDZlLTQyMGEtYmFhZC0wYzZiYjYyYWMxZWFcIn0iLCJpYXQiOjE3MTgxMjM4NzAsImV4cCI6MTcxOTQxOTg3MH0.Rlfitf8LNjggdLi9IlTfsdYdR30w2cX4PqtZ8TtZuBG6GwUjBHtNftWd2WyeqdNUEOdzj2zV_GsLtr7yc4CmyrjKVyVRDlPnohHrcJ7yAmKEKkvbPdAgu09McIhIQUQUl1oINeJ8IW2oP7u2FQf_K9RnW3GSQ05dOpFM2uW9xDPbeDnhDrSe1500hP9fACjg5whumx0F8T0PmT8X0VA24qTPZw1UTnfuyRtjRRvFEmDEYWBNUiOgKJMMXxvqIIle0fbZv67zl-DKmU23hgGVNjZc56_5hzpnAm-99p5bzVPGQziex-UAp4VSRyXw0_djewc6FVE49cgQGhAToA939A")
                 .domain(".wix.com")
                 .isHttpOnly(true)
                 .isSecure(true)
@@ -207,7 +207,7 @@ public class SmokeTests extends page_objects {
     }
     @Test
     @Order(5)
-    public void bbpublishAmazonProduct() throws InterruptedException {
+    public void publishAmazonProduct() throws InterruptedException {
 
         driver.navigate().to(wixURL10);
         Thread.sleep(10000);

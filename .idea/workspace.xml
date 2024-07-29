@@ -39,6 +39,8 @@
     &quot;JUnit.SmokeTests.CreateProductAmazon.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.SmokeTests.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.SmokeTests.publishAmazonMultiManagedProduct.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SmokeTests.publishAmazonProduct.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SmokeTests.publishMultiAmazonProduct.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.SmokeTests.publishProduct.executor&quot;: &quot;Run&quot;,
     &quot;Maven.Smoke-Test-Suite [clean].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -86,6 +88,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmokeTests" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Smoke-Test-Suite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.smoke_test_suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
+      <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SmokeTests.CreateProductAmazon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Smoke-Test-Suite" />
       <extension name="coverage">
@@ -102,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmokeTests.CreateProductEbay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SmokeTests.CreateProductAmazon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Smoke-Test-Suite" />
       <extension name="coverage">
         <pattern>
@@ -112,7 +129,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
       <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
-      <option name="METHOD_NAME" value="CreateProductEbay" />
+      <option name="METHOD_NAME" value="CreateProductAmazon" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,6 +146,54 @@
       <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
       <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
       <option name="METHOD_NAME" value="publishAmazonMultiManagedProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTests.publishAmazonMultiManagedProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Smoke-Test-Suite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.smoke_test_suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
+      <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
+      <option name="METHOD_NAME" value="publishAmazonMultiManagedProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTests.publishAmazonProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Smoke-Test-Suite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.smoke_test_suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
+      <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
+      <option name="METHOD_NAME" value="publishAmazonProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTests.publishMultiAmazonProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Smoke-Test-Suite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.smoke_test_suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
+      <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
+      <option name="METHOD_NAME" value="publishMultiAmazonProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,21 +231,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmokeTests.publishProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Smoke-Test-Suite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.smoke_test_suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.smoke_test_suite" />
+      <option name="MAIN_CLASS_NAME" value="com.example.smoke_test_suite.SmokeTests" />
+      <option name="METHOD_NAME" value="publishProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.SmokeTests" />
+      <item itemvalue="JUnit.SmokeTests.publishProductAmazon" />
+      <item itemvalue="JUnit.SmokeTests.publishMultiAmazonProduct" />
+      <item itemvalue="JUnit.SmokeTests.publishAmazonProduct" />
       <item itemvalue="JUnit.SmokeTests.publishAmazonMultiManagedProduct" />
       <item itemvalue="JUnit.SmokeTests.CreateProductAmazon" />
-      <item itemvalue="JUnit.SmokeTests.CreateProductEbay" />
-      <item itemvalue="JUnit.SmokeTests.publishProductAmazon" />
       <item itemvalue="JUnit.SmokeTests.publishProduct" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SmokeTests.publishProduct" />
         <item itemvalue="JUnit.SmokeTests.publishAmazonMultiManagedProduct" />
+        <item itemvalue="JUnit.SmokeTests.publishMultiAmazonProduct" />
+        <item itemvalue="JUnit.SmokeTests.publishAmazonProduct" />
         <item itemvalue="JUnit.SmokeTests.CreateProductAmazon" />
-        <item itemvalue="JUnit.SmokeTests.publishProductAmazon" />
-        <item itemvalue="JUnit.SmokeTests.CreateProductEbay" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +404,20 @@
       <workItem from="1717853477441" duration="1540000" />
       <workItem from="1718023712451" duration="20310000" />
       <workItem from="1718817487721" duration="18139000" />
-      <workItem from="1719494565886" duration="1720000" />
+      <workItem from="1719494565886" duration="4950000" />
+      <workItem from="1719668766602" duration="2909000" />
+      <workItem from="1719927929824" duration="1070000" />
+      <workItem from="1719944438410" duration="3127000" />
+      <workItem from="1720099960245" duration="8265000" />
+      <workItem from="1720616851640" duration="6568000" />
+      <workItem from="1721135611032" duration="1022000" />
+      <workItem from="1721222681234" duration="670000" />
+      <workItem from="1721309388092" duration="601000" />
+      <workItem from="1721394607804" duration="1547000" />
+      <workItem from="1721482314404" duration="3538000" />
+      <workItem from="1721741013617" duration="2075000" />
+      <workItem from="1721825848387" duration="4581000" />
+      <workItem from="1722174164255" duration="2586000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing all the Code to Github for the 1st time.">
       <created>1674841437360</created>
@@ -544,11 +639,24 @@
       <option name="project" value="LOCAL" />
       <updated>1718217314848</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Updated Cookie Injection">
+      <option name="closed" value="true" />
+      <created>1719504965818</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1719504965819</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="OPEN_GENERIC_TABS">
